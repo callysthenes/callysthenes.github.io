@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Adventures</title>
+    <title>Callysthenes Chronicles</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,6 +26,9 @@
         h1 {
             margin-top: 0;
         }
+        h2 {
+            margin-top: 20px;
+        }
         .project {
             margin-bottom: 20px;
             padding: 20px;
@@ -43,26 +46,45 @@
             max-width: 100%;
             border-radius: 4px;
         }
+        .submenu {
+            margin-left: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .submenu li {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>My Adventures</h1>
+    <h1>Callysthenes Chronicles</h1>
 </header>
 
 <div class="container">
 
     <div class="project">
-        <h2>Motorcycle Adventure</h2>
-        <p>Documenting my motorcycle trips through breathtaking landscapes.</p>
-        <img src="motorcycle.jpg" alt="Motorcycle Adventure">
+        <h2>Motorcycle Adventures</h2>
+        <ul class="submenu">
+            <li><a href="https://www.advrider.com/f/threads/a-solo-trip-to-mongolia-on-a-125cc.1440429/">Overlanding on a 125 to Mongolia and back</a></li>
+            <li>Morocco</li>
+            <li>Weekend rides
+                <ul class="submenu">
+                    <li>Soria</li>
+                    <li>Cuenca</li>
+                    <li>Guadalajara</li>
+                    <li>Extremadura</li>
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <div class="project">
-        <h2>Computer Vision Project</h2>
-        <p>Exploring the fascinating world of computer vision with my latest projects from work.</p>
-        <img src="computer-vision.jpg" alt="Computer Vision Project">
+        <h2>Computer Vision</h2>
+        <ul class="submenu">
+            <li>Character Recognition with EasyOCR</li>
+        </ul>
     </div>
 
 </div>
